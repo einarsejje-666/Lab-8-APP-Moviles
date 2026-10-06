@@ -43,6 +43,7 @@ fun TaskScreen(viewModel: TaskViewModel) {
     Column(
         modifier = Modifier
             .fillMaxSize()
+            .safeDrawingPadding() // evita que la barra de estado tape el contenido
             .padding(16.dp)
     ) {
         TextField(
