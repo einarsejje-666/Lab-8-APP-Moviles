@@ -47,6 +47,9 @@ dependencies {
     // ViewModel para Compose
     implementation(libs.androidx.lifecycle.viewmodel.compose)
 
+    // Iconos de Material (agregar, editar, eliminar)
+    implementation("androidx.compose.material:material-icons-core:1.7.8")
+
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.compose.material3)
